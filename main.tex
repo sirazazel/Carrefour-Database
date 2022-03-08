@@ -1,0 +1,41 @@
+\documentclass[catalan, 12pt, a4paper]{article} % General settings in the beginning (defines the document class of your paper)
+% 11pt = is the font size
+% A4 is the paper size
+% “article” is your document class
+
+\input{general.tex} % Loads required packages from the separate file 
+
+%---------------------------------------------------------------------------------
+%	General information
+%---------------------------------------------------------------------------------
+\title{
+  Base de dades del Carrefour \\
+  Recreació de la base de dades d'una web   
+}
+\author{
+    Francesc Mut Mollà
+    %\thanks{} \blindtext
+    %\institution{} 
+  }
+
+\date{\small \today} % Adds the current date to your “cover” page; leave empty if you do not want to add a date
+
+\begin{document}
+
+\selectlanguage{catalan}
+
+\maketitle % Print your title, author name and date; comment if you want a cover page 
+\input{content/0-index} % Adds a table of content; uncomment if required
+\input{content/1-resum} % Adds your abstract
+\input{content/2-plantejament} % Adds your introduction
+\input{content/3-teoria} % Adds your literature review
+\input{content/4-practica} % Adds your theory section 
+\input{content/5-funcions} % Adds your analysis
+\input{content/6-conclusio} % Adds your analysis
+\input{content/7-biblio}
+
+\thispagestyle{empty} % Suppresses page numbers
+
+%---------------------------------------------------------------------------------
+
+\end{document}
