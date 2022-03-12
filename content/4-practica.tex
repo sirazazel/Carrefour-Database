@@ -1,2 +1,109 @@
+\newpage
+
 \section{Documents}
 
+\subsection{Estructura d'un usuari}
+
+\begin{singlespace}
+
+  \begin{verbnobox}[\tiny\arabic{VerbboxLineNo}\small\hspace{3ex}]
+    [
+    {
+    "_id": {"\$oid": "6227878c2867551ec8708817"},
+    "address": ["Carrer dels Pelats", "76", "07293"],
+    "email": "alopecia@gmail.com",
+    "name": "Alvaro López",
+    "orders": [
+              {
+              "products": [
+                          "622650b1f20aa4641c24569c",
+                          "622650b1f20aa4641c2456a8",
+                          "622650b1f20aa4641c24569e",
+                          "622650b1f20aa4641c2456a0",
+                          "622650b1f20aa4641c24569e"
+                          ],
+              "order_date": "2021-12-23 12:34:21",
+              "order_ready": "2021-12-23 18:45:12",
+              "shops": ["62266228f20aa4641c2456bd"]
+              }
+              ],
+    "payment": ["Google Pay", "alopecia@gmail.com", "670923128"],
+    "username": "alopecia"
+    }
+    ]
+  \end{verbnobox}
+
+\end{singlespace}
+
+Aquest usuari d'exemple veim que ha fet una compra al Carrefour amb 5 productes a 1 tenda, i que va anar a recollir-la a la tenda ja que no té enviament.
+Com podem veure, els productes fan referència a un ObjectID d'un document a la col·lecció Productes, i les tendes a un ObjectID de la col·lecció tendes.
+
+\newpage
+
+\subsection{Exemple d'una tenda}
+
+\begin{singlespace}
+  
+  \begin{verbnobox}[\tiny\arabic{VerbboxLineNo}\small\hspace{3ex}]
+    [
+      {
+        "_id": {"\$oid": "62266228f20aa4641c2456bd"},
+        "address": ["C/ Cardenal Rosell", "SN", "07007"],
+        "category": ["62265d04f20aa4641c2456b0",
+                     "62265d04f20aa4641c2456af", 
+                     "62265d04f20aa4641c2456b1", 
+                     "62265d04f20aa4641c2456b2", 
+                     "62265d04f20aa4641c2456b3", 
+                     "62265d04f20aa4641c2456b4"],
+        "type": "Hipermercat"
+      }
+    ]
+  \end{verbnobox}
+
+\end{singlespace}
+
+Les tendes tenen varis tipus, hipermercats, gasolineres, magatzems i express. Cada una té diferents categories, que són el que delimita quins productes podem trobar a cada centre.
+També tenen l'adreça de la tenda i un id per poder-los referenciar.
+
+\subsection{Exemple d'un producte}
+
+\begin{singlespace}
+  \begin{verbnobox}[\tiny\arabic{VerbboxLineNo}\small\hspace{3ex}]
+    [
+    {
+      "_id": {"\$oid": "622650b1f20aa4641c24569d"},
+      "name": "Tomàtiga",
+      "price": 2.5,
+      "type": "Fruit",
+      "weight": 0.5
+    }
+    ]
+  \end{verbnobox}
+\end{singlespace}
+
+Els productes són documents bastant simples, ja que no referencien res, sempre són referenciats.
+
+\newpage
+
+\subsection{Exemple d'una categoria}
+
+\begin{singlespace}
+  \begin{verbnobox}[\tiny\arabic{VerbboxLineNo}\small\hspace{3ex}]
+    [
+      {
+        "_id": {"\$oid": "62265d04f20aa4641c2456b0"},
+        "discount": 8,
+        "name": "Supermercat",
+        "products": ["622650b1f20aa4641c24569c", 
+                     "622650b1f20aa4641c24569d",
+                     "622650b1f20aa4641c24569e", 
+                     "622650b1f20aa4641c24569f", 
+                     "622650b1f20aa4641c2456a0", 
+                     "622650b1f20aa4641c2456a1", 
+                     "622650b1f20aa4641c2456a2"]
+      }
+    ]
+  \end{verbnobox}
+\end{singlespace}
+
+Cada categoria té un $n\%$ de descompte que s'aplica a cada compra si ets un client de Carrefour. Aplica aquest percentatge a tots els productes que referenciam des d'aquí.
