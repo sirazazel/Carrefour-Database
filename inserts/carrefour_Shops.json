@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456b6"},
+    "address": ["C/ Aragó", "52", "07005"],
+    "category": ["62265d04f20aa4641c2456b0", "62265d04f20aa4641c2456b4"],
+    "type": "Exprés"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456b7"},
+    "address": ["C/ General Riera", "152", "07010"],
+    "category": ["62265d04f20aa4641c2456b0", "62265d04f20aa4641c2456b4", "62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b2"],
+    "type": "Tenda"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456b8"},
+    "address": ["C/ Marian Aguiló", "15", "07005"],
+    "category": ["62265d04f20aa4641c2456b0", "62265d04f20aa4641c2456b4"],
+    "type": "Exprés"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456b9"},
+    "address": ["C/ Biniamar", "16", "07008"],
+    "category": ["62265d04f20aa4641c2456b0"],
+    "type": "Benzinera"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456ba"},
+    "address": ["C/ Caravel·la", "6", "07610"],
+    "category": ["62265d04f20aa4641c2456b0", "62265d04f20aa4641c2456b4"],
+    "type": "Exprés"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456bb"},
+    "address": ["C/ Sant Cristòfol", "118", "07600"],
+    "category": ["62265d04f20aa4641c2456b0"],
+    "type": "Benzinera"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456bc"},
+    "address": ["A/ de les Meravelles", "19", "07610"],
+    "category": ["62265d04f20aa4641c2456b0"],
+    "type": "Benzinera"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456bd"},
+    "address": ["C/ Cardenal Rosell", "SN", "07007"],
+    "category": ["62265d04f20aa4641c2456b0", "62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b1", "62265d04f20aa4641c2456b2", "62265d04f20aa4641c2456b3", "62265d04f20aa4641c2456b4"],
+    "type": "Hipermercat"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456be"},
+    "address": ["A/ de ses Palmeres", "10", "07560"],
+    "category": ["62265d04f20aa4641c2456b0", "62265d04f20aa4641c2456b4", "62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b2"],
+    "type": "Tenda"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456bf"},
+    "address": ["C-713", "SN", "07310"],
+    "category": ["62265d04f20aa4641c2456b0"],
+    "type": "Benzinera"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456c0"},
+    "address": ["C/ Severo Ochoa", "23", "28906"],
+    "category": ["62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b1", "62265d04f20aa4641c2456b2", "62265d04f20aa4641c2456b3", "62265d04f20aa4641c2456b4"],
+    "type": "Magatzem"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456c1"},
+    "address": ["Polígono Industrial Dos Hermanas", "SN", "41700"],
+    "category": ["62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b1", "62265d04f20aa4641c2456b2", "62265d04f20aa4641c2456b3", "62265d04f20aa4641c2456b4"],
+    "type": "Magatzem"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456c2"},
+    "address": ["Polígono Industrial Dos Hermanas", "SN", "41700"],
+    "category": ["62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b1", "62265d04f20aa4641c2456b2", "62265d04f20aa4641c2456b3", "62265d04f20aa4641c2456b4"],
+    "type": "Magatzem"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456c3"},
+    "address": ["C/ Londres", "22", "30392"],
+    "category": ["62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b1", "62265d04f20aa4641c2456b2", "62265d04f20aa4641c2456b3", "62265d04f20aa4641c2456b4"],
+    "type": "Magatzem"
+  },
+  {
+    "_id": {"$oid": "62266228f20aa4641c2456c4"},
+    "address": ["Polígon el Prat de Llobregat", "SN", "08820"],
+    "category": ["62265d04f20aa4641c2456b0", "62265d04f20aa4641c2456af", "62265d04f20aa4641c2456b1", "62265d04f20aa4641c2456b2", "62265d04f20aa4641c2456b3", "62265d04f20aa4641c2456b4"],
+    "type": "Magatzem"
+  }
+]

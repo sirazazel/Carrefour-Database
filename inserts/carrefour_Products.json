@@ -1,0 +1,130 @@
+[
+  {
+    "_id": {"$oid": "622650b1f20aa4641c24569c"},
+    "category": "Supermercat",
+    "name": "Patates",
+    "price": 3.3,
+    "type": "Hortalissa",
+    "weight": 5
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c24569d"},
+    "category": "Supermercat",
+    "name": "Tomàtiga",
+    "price": 2.5,
+    "type": "Fruit",
+    "weight": 0.5
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c24569e"},
+    "category": "Supermercat",
+    "name": "Pastanaga",
+    "price": 2.75,
+    "type": "Verdura",
+    "weight": 0.3
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c24569f"},
+    "category": "Supermercat",
+    "name": "Pebre",
+    "price": 1.95,
+    "type": "Verdura",
+    "weight": 0.3
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a0"},
+    "category": "Supermercat",
+    "name": "Aigua",
+    "price": 1.6,
+    "type": "Begudes",
+    "weight": 2
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a1"},
+    "category": "Supermercat",
+    "name": "Carn picada",
+    "price": 4.4,
+    "type": "Carnisseria",
+    "weight": 0.5
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a2"},
+    "category": "Supermercat",
+    "name": "Dorada",
+    "price": 9.7,
+    "type": "Peix",
+    "weight": 0.7
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a3"},
+    "category": "Tecnologia",
+    "name": "Televisor Samsung",
+    "price": 970,
+    "type": "Televisors",
+    "weight": 10
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a4"},
+    "category": "Tecnologia",
+    "name": "Portàtil Dell",
+    "price": 700,
+    "type": "Ordinadors",
+    "weight": 2
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a5"},
+    "category": "Tecnologia",
+    "name": "Impressora Epson",
+    "price": 90,
+    "type": "Impressores",
+    "weight": 6
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a6"},
+    "category": "Llar",
+    "name": "Gelera Bosch",
+    "price": 2250,
+    "type": "Geleres",
+    "weight": 40
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a7"},
+    "category": "Cuina",
+    "name": "Batedora",
+    "price": 53,
+    "type": "Accessoris",
+    "weight": 1.5
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a8"},
+    "category": "Bricolatge",
+    "name": "Serra de metall",
+    "price": 12,
+    "type": "Eines de mà",
+    "weight": 0.5
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456a9"},
+    "category": "Bricolatge",
+    "name": "Serra de disc",
+    "price": 75,
+    "type": "Eines elèctriques",
+    "weight": 3
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456aa"},
+    "category": "Animals",
+    "name": "Pienso d'arròs i bou",
+    "price": 43,
+    "type": "Adult 30Kg+ ",
+    "weight": 15
+  },
+  {
+    "_id": {"$oid": "622650b1f20aa4641c2456ab"},
+    "category": "Animals",
+    "name": "Pienso de cereals i pollastre",
+    "price": 25,
+    "type": "Jove 10kg+",
+    "weight": 7
+  }
+]

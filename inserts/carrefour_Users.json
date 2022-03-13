@@ -1,0 +1,355 @@
+[
+  {
+    "_id": {"$oid": "622679b2bb21072d6e9bd8e5"},
+    "address": ["Carrer Sindicat", "44", "07014"],
+    "email": "jaume25@gmail.com",
+    "name": "Jaume Llinàs",
+    "orders": [
+      {
+        "products": ["622650b1f20aa4641c24569c", "622650b1f20aa4641c24569f", "622650b1f20aa4641c24569e", "622650b1f20aa4641c2456a0"],
+        "shipment": [
+          {
+            "courier": "dhl",
+            "pickup_addr": "62266228f20aa4641c2456b7",
+            "shipment_sent": "2021-12-24 02:22:32",
+            "est_del_time": "2021-12-26 09:00:00"
+          }
+        ],
+        "total": "55€",
+        "order_date": "2021-12-23 12:34:21",
+        "order_ready": "2021-12-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456b7"]
+      }
+    ],
+    "payment": ["Tarjeta", "SAa93ndand0128", "12/24", "238"],
+    "username": "jaume25"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708815"},
+    "address": ["Plaça Gomila", "12", "07014"],
+    "email": "marieta12@gmail.com",
+    "name": "Maria Villalba",
+    "orders": [
+      {
+        "products": ["622650b1f20aa4641c24569c", "622650b1f20aa4641c24569e", "622650b1f20aa4641c24569e", "622650b1f20aa4641c2456a0", "622650b1f20aa4641c2456a7"],
+        "shipment": [
+          {
+            "courier": "correos",
+            "pickup_addr": "62266228f20aa4641c2456b7",
+            "shipment_sent": "2021-24-08 02:22:32",
+            "est_del_time": "2021-31-08 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-24-08 09:22:32",
+            "est_del_time": "2021-31-08 09:00:00"
+          }
+        ],
+        "order_date": "2021-24-08 12:34:21",
+        "order_ready": "2021-24-08 18:45:12",
+        "shops": ["62266228f20aa4641c2456b7", "62266228f20aa4641c2456c4"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456a6", "622650b1f20aa4641c24569c"],
+        "shipment": [
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-24-24 09:22:32",
+            "est_del_time": "2021-31-26 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456bd",
+            "shipment_sent": "2021-24-24 09:22:32",
+            "est_del_time": "2021-31-26 09:00:00"
+          }
+        ],
+        "order_date": "2021-23-23 12:34:21",
+        "order_ready": "2021-24-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456bd", "62266228f20aa4641c2456c4"]
+      }
+    ],
+    "payment": ["Tarjeta", "sadns2193usdne189e", "22/23", "213"],
+    "username": "marieta13"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708816"},
+    "address": ["Carrer de sa Mare", "12", "07009"],
+    "email": "jarte@gmail.com",
+    "name": "Jordi Picasso",
+    "orders": [
+      {
+        "products": ["622650b1f20aa4641c2456a2", "622650b1f20aa4641c2456a1", "622650b1f20aa4641c2456ab"],
+        "shipment": [
+          {
+            "courier": "mascaromorera",
+            "pickup_addr": "62266228f20aa4641c2456bd",
+            "shipment_sent": "2021-12-24 02:22:32",
+            "est_del_time": "2021-12-26 09:00:00"
+          }
+        ],
+        "order_date": "2021-12-23 12:34:21",
+        "order_ready": "2021-12-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456bd"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456a2", "622650b1f20aa4641c2456a1", "622650b1f20aa4641c2456ab"],
+        "order_date": "2021-12-12 18:34:21",
+        "order_ready": "2021-12-12 18:35:12",
+        "shops": ["622650b1f20aa4641c2456a0"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456a3"],
+        "shipment": [
+          {
+            "courier": "dhl",
+            "pickup_addr": "62266228f20aa4641c2456c3",
+            "shipment_sent": "2021-08-24 02:22:32",
+            "est_del_time": "2021-08-26 09:00:00"
+          }
+        ],
+        "order_date": "2021-08-23 12:34:21",
+        "order_ready": "2021-08-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456c3"]
+      }
+    ],
+    "payment": ["Paypal", "jarte@gmail.com"],
+    "username": "jarte"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708817"},
+    "address": ["Carrer dels Pelats", "76", "07293"],
+    "email": "alopecia@gmail.com",
+    "name": "Alvaro López",
+    "orders": [
+      {
+        "products": ["622650b1f20aa4641c24569c", "622650b1f20aa4641c2456a8", "622650b1f20aa4641c24569e", "622650b1f20aa4641c2456a0", "622650b1f20aa4641c24569e"],
+        "order_date": "2021-12-23 12:34:21",
+        "order_ready": "2021-12-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456bd"]
+      }
+    ],
+    "payment": ["Google Pay", "alopecia@gmail.com", "670923128"],
+    "username": "alopecia",
+    "cupón": ["Alimentació", "10"]
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708818"},
+    "address": ["Plaça Progrés", "12", "07014"],
+    "email": "joni@gmail.com",
+    "name": "Jonathan Melabo",
+    "orders": [
+      {
+        "products": ["622650b1f20aa4641c24569c", "622650b1f20aa4641c2456a2", "622650b1f20aa4641c2456a3", "622650b1f20aa4641c24569f", "622650b1f20aa4641c2456a4", "622650b1f20aa4641c2456a7", "622650b1f20aa4641c2456a8"],
+        "shipment": [
+          {
+            "courier": "correos",
+            "pickup_addr": "62266228f20aa4641c2456b7",
+            "shipment_sent": "2021-12-08 02:22:32",
+            "est_del_time": "2021-12-08 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-13-08 09:22:32",
+            "est_del_time": "2021-15-08 09:00:00"
+          }
+        ],
+        "order_date": "2021-11-08 12:34:21",
+        "order_ready": "2021-12-08 18:45:12",
+        "shops": ["62266228f20aa4641c2456b7", "62266228f20aa4641c2456c4"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456aa", "622650b1f20aa4641c2456a2", "622650b1f20aa4641c2456a4"],
+        "shipment": [
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-24-24 09:22:32",
+            "est_del_time": "2021-31-26 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456bd",
+            "shipment_sent": "2021-24-24 09:22:32",
+            "est_del_time": "2021-31-26 09:00:00"
+          },
+          {
+            "courier": "correos",
+            "pickup_addr": "62266228f20aa4641c2456c0",
+            "shipment_sent": "2021-24-24 09:22:32",
+            "est_del_time": "2021-31-26 09:00:00"
+          }
+        ],
+        "order_date": "2021-23-23 12:34:21",
+        "order_ready": "2021-24-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456bd", "62266228f20aa4641c2456c4"]
+      },
+      {
+        "products": ["622650b1f20aa4641c24569c", "622650b1f20aa4641c24569d", "622650b1f20aa4641c24569e", "622650b1f20aa4641c2456a0", "622650b1f20aa4641c24569e"],
+        "order_date": "2021-12-23 12:34:21",
+        "order_ready": "2021-12-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456b9"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456a1", "622650b1f20aa4641c2456aa", "622650b1f20aa4641c2456a0", "622650b1f20aa4641c2456a0"],
+        "order_date": "2021-12-23 12:34:21",
+        "order_ready": "2021-12-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456b9"]
+      }
+    ],
+    "payment": ["Tarjeta", "sadia13eud121", "22/22", "123"],
+    "username": "Jon"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708819"},
+    "address": ["Carrer de l'Estepa", "12", "07014"],
+    "email": "john@gmail.com",
+    "name": "John Wilkinson",
+    "orders": [
+      {
+        "products": ["622650b1f20aa4641c24569c", "622650b1f20aa4641c24569e", "622650b1f20aa4641c24569e", "622650b1f20aa4641c2456a0", "622650b1f20aa4641c2456a7"],
+        "shipment": [
+          {
+            "courier": "correos",
+            "pickup_addr": "62266228f20aa4641c2456b7",
+            "shipment_sent": "2021-24-08 02:22:32",
+            "est_del_time": "2021-31-08 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-24-08 09:22:32",
+            "est_del_time": "2021-31-08 09:00:00"
+          }
+        ],
+        "order_date": "2021-24-08 12:34:21",
+        "order_ready": "2021-24-08 18:45:12",
+        "shops": ["62266228f20aa4641c2456b7", "62266228f20aa4641c2456c4"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456a6", "622650b1f20aa4641c24569c"],
+        "shipment": [
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-24-24 09:22:32",
+            "est_del_time": "2021-31-26 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456bd",
+            "shipment_sent": "2021-24-24 09:22:32",
+            "est_del_time": "2021-31-26 09:00:00"
+          }
+        ],
+        "order_date": "2021-23-23 12:34:21",
+        "order_ready": "2021-24-23 18:45:12",
+        "shops": ["62266228f20aa4641c2456bd", "62266228f20aa4641c2456c4"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456a0", "622650b1f20aa4641c24569e", "622650b1f20aa4641c2456a2", "622650b1f20aa4641c2456a0", "622650b1f20aa4641c2456a7"],
+        "shipment": [
+          {
+            "courier": "correos",
+            "pickup_addr": "62266228f20aa4641c2456b7",
+            "shipment_sent": "2021-24-08 02:22:32",
+            "est_del_time": "2021-31-08 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-24-08 09:22:32",
+            "est_del_time": "2021-31-08 09:00:00"
+          }
+        ],
+        "order_date": "2021-24-08 12:34:21",
+        "order_ready": "2021-24-08 18:45:12",
+        "shops": ["62266228f20aa4641c2456b7", "62266228f20aa4641c2456c4"]
+      },
+      {
+        "products": ["622650b1f20aa4641c2456a8", "622650b1f20aa4641c24569c"],
+        "shipment": [
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456c4",
+            "shipment_sent": "2021-21-02 09:22:32",
+            "est_del_time": "2021-31-02 09:00:00"
+          },
+          {
+            "courier": "ups",
+            "pickup_addr": "62266228f20aa4641c2456bd",
+            "shipment_sent": "2021-24-02 09:22:32",
+            "est_del_time": "2021-31-02 09:00:00"
+          }
+        ],
+        "order_date": "2021-20-02 12:34:21",
+        "order_ready": "2021-24-02 18:45:12",
+        "shops": ["62266228f20aa4641c2456bd", "62266228f20aa4641c2456c4"]
+      }
+    ],
+    "payment": ["Tarjeta", "2ewjx912jxj9021mwije", "22/23", "144"],
+    "username": "fabioyoubastard"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec870881a"},
+    "address": ["Stalingrad", "SN", "07293"],
+    "email": "gulag@gmail.com",
+    "name": "Iosif Stalin",
+    "username": "tiobueno"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec870881b"},
+    "address": ["Carrer Aragó", "21", "07007"],
+    "email": "javier8a@gmail.com",
+    "name": "Javier Ochoa",
+    "username": "javier123"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec870881c"},
+    "address": ["Carrer Pere Dezcállar i Net", "24", "07013"],
+    "email": "laurita@gmail.com",
+    "name": "Laura García",
+    "username": "laura31"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec870881d"},
+    "address": ["Carrer Virtut", "7", "07823"],
+    "email": "martikah@gmail.com",
+    "name": "Marta Zurera",
+    "username": "marta49"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec870881e"},
+    "address": ["Carrer de l'Hort", "21", "07293"],
+    "email": "hortensmith@gmail.com",
+    "name": "Hortensia Smith",
+    "username": "hortensia"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec870881f"},
+    "email": "sandra@gmail.com",
+    "name": "Sandra Cabrera",
+    "username": "sandra99"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708820"},
+    "email": "gatita93@gmail.com",
+    "name": "Álex Ortiz",
+    "username": "lagatita"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708821"},
+    "email": "hugomirey@gmail.com",
+    "name": "Lucía Venezuela",
+    "username": "elperrito"
+  },
+  {
+    "_id": {"$oid": "6227878c2867551ec8708822"},
+    "email": "expropiese@gmail.com",
+    "name": "Fidel Castro",
+    "username": "expropiese"
+  }
+]

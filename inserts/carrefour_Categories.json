@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {"$oid": "62265d04f20aa4641c2456af"},
+    "discount": 0,
+    "name": "Bricolatge",
+    "products": ["622650b1f20aa4641c2456a8", "622650b1f20aa4641c2456a9"]
+  },
+  {
+    "_id": {"$oid": "62265d04f20aa4641c2456b0"},
+    "discount": 8,
+    "name": "Supermercat",
+    "products": ["622650b1f20aa4641c24569c", "622650b1f20aa4641c24569d", "622650b1f20aa4641c24569e", "622650b1f20aa4641c24569f", "622650b1f20aa4641c2456a0", "622650b1f20aa4641c2456a1", "622650b1f20aa4641c2456a2"]
+  },
+  {
+    "_id": {"$oid": "62265d04f20aa4641c2456b1"},
+    "discount": 0,
+    "name": "Tecnologia",
+    "products": ["622650b1f20aa4641c2456a4", "622650b1f20aa4641c2456a5"]
+  },
+  {
+    "_id": {"$oid": "62265d04f20aa4641c2456b2"},
+    "discount": 0,
+    "name": "Llar",
+    "products": ["622650b1f20aa4641c2456a6"]
+  },
+  {
+    "_id": {"$oid": "62265d04f20aa4641c2456b3"},
+    "discount": 1,
+    "name": "Cuina",
+    "products": ["622650b1f20aa4641c2456a7"]
+  },
+  {
+    "_id": {"$oid": "62265d04f20aa4641c2456b4"},
+    "discount": 2,
+    "name": "Animals",
+    "products": ["622650b1f20aa4641c2456ab", "622650b1f20aa4641c2456aa"]
+  }
+]
